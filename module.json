@@ -1,0 +1,54 @@
+{
+  "name":"starforged-ru",
+  "title":"Starforged — Russian",
+  "description":"A Babele-powered module used to translate contents of «Starforged» TTRPG by Shawn Tomkin.",
+  "version":"1.0",
+  "author":"AugustBebel",
+  "minimumCoreVersion":"0.8.9",
+  "compatibleCoreVersion":"10",
+  "esmodules": ["babele-register.js"],
+  "url":"https://github.com/AugustBebel/starforged-ru",
+  "manifest": "TODO",
+  "download": "TODO",
+   "languages":[
+      {
+         "lang": "ru",
+         "name": "Russian",
+         "path":"ru.json"
+      }
+   ],
+   "dependencies":[
+      {
+         "name":"babele",
+         "item": "module",
+         "manifest":"https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+      },
+      {
+        "name": "foundry-ironsworn",
+        "type": "system"
+      }
+   ],
+  "system": [
+    "foundry-ironsworn"
+  ],
+  "packs": [
+   {
+      "name": "ironsworn-delve-temas-es",
+      "label": "Ironsworn Delve Temas [ES]",
+      "path": "packs/ironsworn-delve-temas-es.db",
+      "type": "Item",
+      "system": "foundry-ironsworn",
+      "module": "ironsworn-es-es",
+      "private": false
+    },
+    {
+      "name": "ironsworn-delve-territorios-es",
+      "label": "Ironsworn Delve Territorios [ES]",
+      "path": "packs/ironsworn-delve-territorios-es.db",
+      "type": "Item",
+      "system": "foundry-ironsworn",
+      "module": "ironsworn-es-es",
+      "private": false
+    }
+  ]
+}
