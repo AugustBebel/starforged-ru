@@ -7,9 +7,9 @@
   "minimumCoreVersion":"0.8.9",
   "compatibleCoreVersion":"11",
   "esmodules": ["babele-register.js"],
-  "url":"https://github.com/jesberpen/ironsworn-es-es",
-  "manifest": "https://raw.githubusercontent.com/gorvaine/ironsworn-es-es/updateV10/module.json",
-  "download": "https://github.com/Gorvaine/ironsworn-es-es/archive/refs/tags/2.4.zip",
+  "url":"https://github.com/AugustBebel/starforged-ru",
+  "manifest": "https://raw.githubusercontent.com/AugustBebel/starforged-ru/main/module.json",
+  "download": "",
    "languages":[
       {
          "lang": "ru",
