@@ -1,0 +1,31 @@
+{
+  "label": "Активы Starforged",
+  "folders": {
+        "Command Vehicle": "Командирский транспорт",
+        "Companion": "Компаньон"
+    },
+  "mapping": {
+	"description": "data.description",
+	"field 1 name": "data.fields.1.name",
+	"field 2 name": "data.fields.2.name",
+	"abilities description 1": "data.abilities.1.description",
+	"ability 1 enabler": "data.abilities.1.enable",
+	"abilities description 2": "data.abilities.2.description",
+	"abilities description 3": "data.abilities.3.description",
+	"option 1 name": "data.exclusiveOptions.1.name",
+	"option 2 name": "data.exclusiveOptions.2.name",
+	"track name": "data.track.name"
+  },
+  "entries": [
+    {
+      "id": "Starship",
+      "name": "Командирский транспорт",
+      "description": "Когда вы <b>успешно помогли кому-то</b>, вы тоже получаете +1 на следующий ход.",
+		"abilities descroption 1": "<p>Сосать+лизать</p>,
+		"abilities descroption 2": "<p>Лизать+лежать</p>,
+		"abilities descroption 2": "<p>Прыгать+скакать</p>,
+		"track name": "Соска"
+    }
+
+  ]
+}

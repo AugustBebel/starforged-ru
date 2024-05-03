@@ -9,7 +9,7 @@
   "esmodules": ["babele-register.js"],
   "url":"https://github.com/AugustBebel/starforged-ru",
   "manifest": "https://raw.githubusercontent.com/AugustBebel/starforged-ru/main/module.json",
-  "download": "",
+  "download": "https://github.com/Gorvaine/ironsworn-es-es/archive/refs/tags/2.4.zip",
    "languages":[
       {
          "lang": "ru",
@@ -32,32 +32,6 @@
     "foundry-ironsworn"
   ],
   "packs": [
-   {
-      "name": "ironsworn-delve-temas-es",
-      "label": "Ironsworn Delve Temas [ES]",
-      "path": "packs/ironsworn-delve-temas-es.db",
-      "type": "Item",
-      "system": "foundry-ironsworn",
-      "module": "ironsworn-es-es",
-      "private": false
-    },
-    {
-      "name": "ironsworn-delve-territorios-es",
-      "label": "Ironsworn Delve Territorios [ES]",
-      "path": "packs/ironsworn-delve-territorios-es.db",
-      "type": "Item",
-      "system": "foundry-ironsworn",
-      "module": "ironsworn-es-es",
-      "private": false
-    },
-    {
-      "name": "ironsworn-tablas-solo-es",
-      "label": "Ironsworn Tablas [Solo ES]",
-      "path": "packs/ironsworn-tablas-solo-es.db",
-      "type": "RollTable",
-      "system": "foundry-ironsworn",
-      "module": "ironsworn-es-es",
-      "private": false
-    }
+
   ]
 }
