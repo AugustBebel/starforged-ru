@@ -1,0 +1,58 @@
+{
+  "_id": "e6ed148eff82c171",
+  "name": "——¿“‹ » ≈¡¿“‹",
+  "type": "sfmove",
+  "img": "icons/dice/d10black.svg",
+  "data": {
+    "dfid": "Starforged/Moves/Adventure/Face_Danger",
+    "Category": "Starforged/Moves/Adventure",
+    "Progress Move": false,
+    "Variant of": "",
+    "Text": "**When you attempt something risky or react to an imminent threat**, envision your action and roll. If you act...\n\n  * With speed, mobility, or agility: Roll +edge\n  * With resolve, command, or sociability: Roll +heart\n  * With strength, endurance, or aggression: Roll +iron\n  * With deception, stealth, or trickery: Roll +shadow\n  * With expertise, focus, or observation: Roll +wits\n\nOn a **strong hit**, you are successful. Take +1 momentum.\n\nOn a **weak hit**, you succeed, but not without a cost. Make a suffer move (-1).\n\nOn a **miss**, you fail, or a momentary success is undermined by a dire turn of events. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pay the Price}.",
+    "Trigger": {
+      "Text": "When you attempt something risky or react to an imminent threat...",
+      "Options": [
+        {
+          "dfid": "Starforged/Moves/Adventure/Face_Danger/Trigger/Options/1",
+          "Text": "With speed, mobility, or agility",
+          "Roll type": "Action roll",
+          "Method": "Any",
+          "Using": ["Edge"]
+        },
+        // ...
+      ],
+      "dfid": "Starforged/Moves/Adventure/Face_Danger/Trigger"
+    },
+    "Outcomes": {
+      "Strong Hit": {
+        "Text": "You are successful. Take +1 momentum.",
+        "dfid": "Starforged/Moves/Adventure/Face_Danger/Outcomes/Strong_Hit"
+      },
+      "Weak Hit": {
+        "Text": "You succeed, but not without a cost. Make a suffer move (-1).",
+        "dfid": "Starforged/Moves/Adventure/Face_Danger/Outcomes/Weak_Hit"
+      },
+      "Miss": {
+        "Text": "You fail, or a momentary success is undermined by a dire turn of events. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pay the Price}.",
+        "dfid": "Starforged/Moves/Adventure/Face_Danger/Outcomes/Miss"
+      },
+      "dfid": "Starforged/Moves/Adventure/Face_Danger/Outcomes"
+    },
+    "Oracles": [],
+    "Source": {
+      "Title": "Ironsworn: Starforged Rulebook",
+      "Authors": ["Shawn Tomkin"],
+      "Date": "050622",
+      "Page": 147
+    },
+    "Suggestions": {},
+    "Name": "Face Danger",
+    "Optional": false,
+    "Display": { "Title": "Face Danger", "Color": "#3C70A4" }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": { "default": 0, "gXcI9ebHCY1jasJg": 3 },
+  "flags": {}
+}

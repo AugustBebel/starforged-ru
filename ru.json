@@ -348,17 +348,17 @@
 				"Title": "Добро пожаловать в Ironsworn",
 				"Description": "Обзор систем Ironsworn и Starforged",
 				"WelcomeTitle": "Добро пожаловать",
-				"WelcomeContent": "<p>Welcome to Ironsworn &amp; Starforged! This tour will help you find where all the things are that will help you set up and play your game.</p><p>At this point you will have seen the game-selection dialog, which configures the default character sheet, moves, and oracles. Let&#39;s look at where the other system features can be found.</p>",
-				"ActorTabTitle": "Creating a Character",
-				"ActorTabContent": "<p>At some point, you&#39;ll want to create a character. To do that, navigate to the &quot;<i class=\"fas fa-user\"></i> Actors&quot; tab and click this button.</p>",
-				"CharacterCreateTitle": "Creating a Character",
-				"CharacterCreateContent": "<p>This button will create a primary character, which is all you need to get started. As your game progresses, you may need the other types here to organize things.</p>",
-				"CompendiumTitle": "Maps",
-				"CompendiumContent": "<p>You&#39;ll probably want a map of the Ironlands or a sector of the Forge. You can create your own scene for this, or you can use one of ours. Open one of these compendiums and drag a map to your &quot;<i class=\"fas fa-map\"></i> Scenes&quot; area.</p>",
-				"OracleToolTitle": "Oracles",
-				"OracleToolContent": "<p>No game of Ironsworn or Starforged would be complete without oracles. This button will pop up a window with all the oracles in your chosen game. The oracles are also available from the character sheet.</p>",
-				"ToursTitle": "Next Steps",
-				"ToursContent": "<p>That&#39;s it for now! For more information on other topics, check out the Tour Management area in the settings tabs. And if you want to get in contact, check out the <code>#foundry-vtt</code> channel in the <a href=\"https://discord.gg/8bRuZwK\">Ironsworn Discord</a>.</p><p>Enjoy!</p>"
+				"WelcomeContent": "<p>Добро пожаловать в Ironsworn&amp; Starforged! Этот тур поможет вам найти все те вещи которые нужны чтобы подготовиться и начать игру.</p><p>К этому моменту вы уже видели диалог выбора игры, который настраивает листы персонажей по умолчанию, ходы и оракулы. Давайте посмотрим где где можно найти остальные особенности системы.</p>",
+				"ActorTabTitle": "Создание персонажа",
+				"ActorTabContent": "<p>Конечно же, вам нужно будет создать персонажа. Чтобы это сделать, наведите на закладку &quot;<i class=\"fas fa-user\"></i> Актёров&quot;  и кликните эту кнопку.</p>",
+				"CharacterCreateTitle": "Создание персонажа",
+				"CharacterCreateContent": "<p>Эта кнопка создаёт персонажа игрока. Это первое что понадобится вам чтобы начать играть.</p>",
+				"CompendiumTitle": "Карты и сцены",
+				"CompendiumContent": "<p>Скорее всего вам понадобится карта Железных Земель или сектора Кузни. Вы можете создать для этого свою собственную сцену или использовать готовую. Откройте один из этих компендиумов и перетащите карту на область &quot;<i class=\"fas fa-map\"></i> Сцены&quot;.</p>",
+				"OracleToolTitle": "Оракулы",
+				"OracleToolContent": "<p>Никакая игра Ironsworn или Starforged не будет полной без оракулов. Эта кнопка вызовет окно со всеми оракулами в вашей игре. Также оракулы доступны из листа персонажа.</p>",
+				"ToursTitle": "Следующие шаги",
+				"ToursContent": "<p>Пока всё! Чтобы получить больше информации о других темах, посетите «Управление турами» в настройках. И если вы хотите пообщаться, можете заглянуть на канал <code>#foundry-vtt</code> в официальном дискорде Ironsowrn и Starforged <a href=\"https://discord.gg/8bRuZwK\"></a>.</p><p>Наслаждайтесь!</p>"
 			},
 			"ISCharacter": {
 				"SheetTitle": "Character Sheet",
@@ -636,27 +636,27 @@
 			"Starforged": {
 				"Command Vehicle": {
 					"Title": "Командирский транспорт",
-					"Description": "**Командирский транспорт** это ваш межзвёздный ЗВЕЗДОЛЁТ.. It is a default asset for your character, taken when you begin your campaign. If you are playing with others, this is a shared asset; each of you may use the STARSHIP's abilities while aboard the craft.\n\nThe command vehicle has an integrity meter and starts at 5 integrity. When your STARSHIP takes a hit, make the @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Withstand Damage} move to see what happens."
+					"Description": "**Командирский транспорт** это ваш межзвёздный ЗВЕЗДОЛЁТ. Это — стандартный актив для вашего персонажа, получаемый в начале кампании. Если вы играете с кем-то ещё, это общий актив; каждый из вас может использовать способности ЗВЕЗДОЛЁТА находясь на его борту. \n\nКомандирский транспорт имеет шкалу целостности и начинает с 5 целостности. Когда ваш ЗВЕЗДОЛЁТ страдает от вреда, сделайте ход @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Выдержать повреждения} чтобы узнать что произойдёт."
 				},
 				"Module": {
 					"Title": "Модуль",
-					"Description": "**Modules** are linked to your STARSHIP and offer additional options and advantages when aboard that vehicle.\n\nThese assets are earned and managed by a single character. They can be shared with allies, but only if it's practical for them to make use of it (not everyone may know how to use a RESEARCH LAB).\n\nWhen you @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Withstand Damage} and score a miss, you can mark a module as broken to offset further danger for your STARSHIP. Flip the card over to indicate its broken state. A broken module cannot be used until you successfully @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{Repair} it."
+					"Description": "**Модули** связаны с вашим ЗВЕЗДОЛЁТОМ и предлагают допольнительные опции и преимущества когда вы находитесь на борту. \n\nЭти активы зарабатываются и используются одним персонажем. Их можно разделять с союзниками, но только если это имеет смысл (не все знают как использовать НАУЧНУЮ ЛАБОРАТОРИЮ).\n\nКогда вы  @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Выдерживаете повреждения} и выпадает провал, вы можете отметить модуль как сломанный чтобы избежать другого урона по кораблю. Сломанный модуль больше нельзя использовать пока вы не @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{Почините} его."
 				},
 				"Support Vehicle": {
 					"Title": "Вспомогательный транспорт",
-					"Description": "**Support vehicles** complement your command vehicle for planetside or short-range operations. If you are playing with others, one of you might serve as the pilot or owner of a support vehicle, but anyone on board can use its abilities as appropriate to the situation.\n\nAs with the command vehicle, your support vehicles have integrity meters. The maximum integrity varies based on the type of vehicle. When a support vehicle faces a damaging situation or environment, you must @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Withstand Damage} to see how it fares."
+					"Description": "**Вспомогательный транспорт** дополняет ваш командирский транспорт для планетарных или недалёких экспедиций. Если вы играете с кем-то ещё, один из вас может служить пилотом или владельцем вспомогательного транспорта, но кто угодно на борту может пользоваться его способностями если это подходит ситуации. \n\nКак и с командирским транспортом, у вспомогательного транспорта есть показатель целостности. Максимум целостности варьрируется в зависимости от типа транспорта. Когда вспомогательный транспорт оказывается в наносящей вред среде или ситуации, вы должны @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Выдержать повреждения} чтобы узнать как он выдержит."
 				},
 				"Path": {
 					"Title": "Путь",
-					"Description": "**Paths** are your background, interests, training, skills, powers, and key equipment. They provide mechanical and narrative advantages, but also reflect who you are and how you interact with the world. When you create your character in the next chapter, you'll select at least two paths to get started.\n\nSome paths represent your skill with a signature weapon style or piece of equipment. If you see a requirement at the top of the asset card, such as “If you wield a bladed weapon…,” the asset is only usable when taking action using that item."
+					"Description": "**Пути** это ваша предыстория, интересы, обучение, навыки, силы и ключевое снаряжение. Они предоставляют механические и нарративные преимущества, но также отражают кто вы такой и как вы взаимодействуете с миром. Когда вы создаёте персонажа, вы выбираете как минимум два пути для начала. \n\nНекоторые пути отражают ваши навыки с знаковым оружием, стилем или снаряжением. Если вы видите требование наверху актива, например «Если вы обладаете клинковым оружием…», то актив работает только если вы действуете выполняя это требование."
 				},
 				"Companion": {
 					"Title": "Спутник",
-					"Description": "**Companions** are NPC helpers. When you gain a companion, give them a name and envision their look and personality.\n\nCompanions utilize a health meter that can be reduced if an outcome puts them in harm's way. When your companion faces harm, make the @Compendium[foundry-ironsworn.starforgedmoves.d34cdf2408cd22b6]{Companion Takes a Hit} move. When their health is at 0, they are in danger of being killed or destroyed."
+					"Description": "**Спутники** это НИП-помощники. Когда вы получаете компаньона, дайте ему имя и опишите его внешний вид и личность.\n\nКомпаньоны используют шкалу здоровья которая может уменьшаться если исход хода ставит их под удар. Когда ваш компаньон страдает от урона, сделайте ход @Compendium[foundry-ironsworn.starforgedmoves.d34cdf2408cd22b6]{Компаньон попал под удар}. Когда его здоровье падает до 0, он рискует быть уничтоженным или погибнуть."
 				},
 				"Deed": {
 					"Title": "Деяние",
-					"Description": "**Deeds** represent the notable achievement and situations of your story, and how those events change your character.\n\nDeeds have a requirement listed at the top of the card, phrased as “Once you \\[blank\\].” You may not spend experience to acquire a deed until you fulfill the requirement, and you cannot choose a deed when creating your character."
+					"Description": "**Деяния** отражают значительное достижение или ситуацию в вашей истории и как эти события изменяют вашего персонажа. \n\nДеяния имеют требование записанное на верхней части актива, выглядещее как «Когда вы… ()». Вы не можете тратить опыт чтобы получить деяния пока не выполните их условия и вы не можете выбрать деяние когда создаёте персонажа."
 				}
 			}
 		},
